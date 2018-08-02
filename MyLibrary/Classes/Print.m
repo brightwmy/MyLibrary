@@ -11,7 +11,7 @@
 @implementation Print
 
 - (void)print {
-    NSLog(@"-- my library, hello world");
+    NSLog(@"-- my library, hello world, updated to 0.1.1");
 }
 
 @end
