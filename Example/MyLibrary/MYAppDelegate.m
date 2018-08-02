@@ -7,12 +7,15 @@
 //
 
 #import "MYAppDelegate.h"
+#import <MyLibrary/MyLibrary-umbrella.h>
 
 @implementation MYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[Print new] print];
     return YES;
 }
 
